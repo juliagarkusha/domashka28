@@ -9,7 +9,6 @@ function TodoForm (props) {
   } = props;
 
   const [ inputValue, setInputValue ] = useState('');
-//  console.log('debug editableTodo: ', editableTodo?.title);
 
   useEffect(() => {
     if(!editableTodo) {
