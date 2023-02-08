@@ -1,0 +1,7 @@
+.todo__list {
+  width: 100%;
+  height: calc(100vh - 4rem - 80px);
+  max-width: var(--todo-max-width);
+  background-color: var(--white);
+  overflow-y: auto;
+}

@@ -1,0 +1,20 @@
+.todo__item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: max-content 1fr repeat(2, max-content);
+  gap: .5rem;
+  padding: .5rem .75rem;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--gray-300);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--done {
+    opacity: .5;
+    text-decoration: line-through;
+  }
+}

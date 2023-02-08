@@ -1,0 +1,16 @@
+.field {
+  &__label {
+
+  }
+
+  &__input {
+    border-color: var(--gray-200);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    color: var(--black-500);
+    transition: border-color .2s ease-out;
+  }
+}
