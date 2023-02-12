@@ -1,0 +1,10 @@
+.todoForm {
+  padding-bottom: 1rem;
+
+  &__input {
+    display: grid;
+    gap: .5rem;
+    width: 100%;
+    max-width: var(--todo-max-width);
+  }
+}
